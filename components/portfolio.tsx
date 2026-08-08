@@ -15,7 +15,7 @@ export function Portfolio({ locale, m }: { locale: "en" | "ar"; m: any }) {
 
       <section id="about" className="section about"><Container><div className="about-grid"><SectionHeading eyebrow={m.about.eyebrow} title={m.about.title} /><div className="about-copy reveal"><p>{m.about.p1}</p><p>{m.about.p2}</p><div className="facts"><div><span>{m.about.based}</span><strong>{m.profile.country}</strong></div><div><span>{m.about.focus}</span><strong>{m.about.focusValue}</strong></div><div><span>{m.about.status}</span><strong>{m.hero.student}</strong></div></div></div></div></Container></section>
 
-      <section id="projects" className="section projects"><Container><SectionHeading eyebrow={m.projects.eyebrow} title={m.projects.title} intro={m.projects.intro} />{projects.map((p, i) => <ProjectShowcase key={p.slug} project={p} content={m.projects.items[p.slug]} index={i} />)}</Container></section>
+      <section id="projects" className="section projects"><Container><SectionHeading eyebrow={m.projects.eyebrow} title={m.projects.title} intro={m.projects.intro} />{projects.map((p, i) => <ProjectShowcase key={p.slug} project={p} content={m.projects.items[p.slug]} index={i} viewer={m.projects.viewer} />)}</Container></section>
 
       <section id="skills" className="section skills"><Container><SectionHeading eyebrow={m.skills.eyebrow} title={m.skills.title} intro={m.skills.intro} /><div className="skill-grid">{Object.entries(m.skills.groups).map(([key, group]: any, i) => <div className="skill-group reveal" key={key}><span className="group-number">0{i + 1}</span><h3>{group.title}</h3><div>{group.items.map((x: string) => <span key={x}>{x}</span>)}</div></div>)}</div></Container></section>
 
