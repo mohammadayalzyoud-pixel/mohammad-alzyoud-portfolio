@@ -1,0 +1,32 @@
+{
+  "seo": { "title": "Mohammad Alzyoud | Software Developer", "description": "Software developer in Jordan building Flutter mobile applications and modern web experiences with Next.js, React, and Firebase." },
+  "profile": { "name": "Mohammad Alzyoud", "country": "Jordan" },
+  "nav": { "label": "Primary navigation", "home": "Home", "about": "About", "projects": "Projects", "skills": "Skills", "services": "Services", "contact": "Contact" },
+  "actions": { "projects": "View My Projects", "contact": "Contact Me", "theme": "Toggle color theme", "menu": "Toggle navigation menu" },
+  "hero": { "availability": "Open to junior roles & freelance projects", "student": "Computer Science Student", "title": "Software Developer", "specialization": "Flutter Developer • Full-Stack Web Developer", "intro": "I build practical mobile and web applications using Flutter, Next.js, and Firebase, focusing on clean, responsive, and user-friendly software.", "productLabel": "Building useful products", "scroll": "Selected work" },
+  "about": { "eyebrow": "About", "title": "Real products. Thoughtful development.", "p1": "Computer Science student based in Jordan with hands-on experience developing mobile applications with Flutter and modern web applications using Next.js.", "p2": "I focus on building complete practical products and continuously improving through real-world development projects. I am currently interested in junior software engineering opportunities and freelance development projects.", "based": "Based in", "focus": "Primary focus", "focusValue": "Mobile & Web", "status": "Current status" },
+  "projects": {
+    "eyebrow": "Featured Projects", "title": "Work built around real needs.", "intro": "Complete mobile and web products that demonstrate product thinking, responsive interfaces, and practical engineering.",
+    "items": {
+      "delni-app": { "title": "Delni", "type": "Mobile Application", "status": "In development", "description": "A local job search platform focused on helping people discover job opportunities across Jordan from companies, stores, factories, and local businesses.", "purposeLabel": "Purpose", "purpose": "Make local opportunities easier to discover and give job seekers a practical way to create a CV directly inside the app.", "featuresLabel": "Main features", "features": ["Local job discovery", "Firebase Authentication & Google Sign-In", "Built-in CV Builder", "Responsive Arabic-focused experience"], "comingSoon": "Google Play — Coming Soon", "imageAlt": "Placeholder for Delni mobile application screenshots" },
+      "delni-web": { "title": "Delni Official Website", "type": "Product Website", "status": "Built", "description": "The official informational website representing the Delni application and explaining its value to users across Jordan.", "purposeLabel": "Purpose", "purpose": "Give the product a clear bilingual web presence. The website itself demonstrates modern Arabic and English web development.", "featuresLabel": "Main features", "features": ["Responsive design", "Arabic & English with RTL / LTR", "SEO-focused structure", "Mobile optimization & Vercel deployment"], "comingSoon": "Live link — Coming Soon", "imageAlt": "Placeholder for Delni official website screenshots" },
+      "almondas": { "title": "Almondas", "type": "Party Game", "status": "In development", "description": "An offline local multiplayer party game inspired by Arabic social games, designed around discovering which player is outside the secret topic.", "purposeLabel": "Purpose", "purpose": "Create a simple social game that works offline on one shared phone and feels natural for Arabic-speaking groups.", "featuresLabel": "Main features", "features": ["Offline local multiplayer", "Phone handover gameplay", "Custom game logic", "Arabic-first responsive interface"], "comingSoon": "Store release — Coming Soon", "imageAlt": "Placeholder for Almondas party game screenshots" }
+    }
+  },
+  "skills": { "eyebrow": "Capabilities", "title": "A practical development toolkit.", "intro": "Focused technologies used to plan, build, and refine mobile and web products.", "groups": {
+    "core": { "title": "Core & Programming", "items": ["C++", "Dart", "TypeScript", "JavaScript", "Data Structures", "Algorithms", "Problem Solving"] },
+    "mobile": { "title": "Mobile Development", "items": ["Flutter", "Riverpod", "SharedPreferences", "Responsive UI Design"] },
+    "web": { "title": "Web Development", "items": ["Next.js", "React", "Tailwind CSS", "HTML5", "CSS3", "Responsive Web Design"] },
+    "backend": { "title": "Backend & Services", "items": ["Firebase Authentication", "Google Sign-In", "REST APIs"] },
+    "tools": { "title": "Tools & Platforms", "items": ["Git", "VS Code", "Android Studio", "Firebase Console", "Vercel"] }
+  }},
+  "services": { "eyebrow": "Services", "title": "Ways I can help bring an idea to life.", "intro": "Focused development services grounded in the tools I use today.", "items": [
+    { "title": "Flutter App Development", "description": "Cross-platform mobile applications with responsive interfaces and Firebase integration." },
+    { "title": "Web Development", "description": "Modern responsive websites using Next.js, React, TypeScript, and Tailwind CSS." },
+    { "title": "Firebase Integration", "description": "Firebase Authentication and Google Sign-In integration for mobile products." },
+    { "title": "Responsive UI Development", "description": "Building responsive mobile and web interfaces from product ideas or existing designs." }
+  ]},
+  "education": { "eyebrow": "Education", "degree": "Bachelor's Degree in Computer Science", "university": "Al-Hussein Bin Talal University", "graduation": "Expected Graduation: 2029", "languages": "Languages", "spoken": ["Arabic — Native", "English — Basic Working Proficiency"] },
+  "contact": { "eyebrow": "Contact", "title": "Let's Work Together", "intro": "Have a junior opportunity or a practical product in mind? Send me an email or connect with me on LinkedIn.", "emailCta": "Start a conversation", "email": "Email", "connect": "Connect on LinkedIn", "location": "Location", "phone": "Phone" },
+  "footer": { "line": "Software Developer · Flutter & Full-Stack Web", "rights": "© 2026 Mohammad Alzyoud. All rights reserved." }
+}
