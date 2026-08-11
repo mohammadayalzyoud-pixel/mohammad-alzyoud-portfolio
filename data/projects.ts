@@ -1,5 +1,19 @@
 export const projects = [
   {
+    slug: "nexus-pos",
+    technologies: ["Flutter", "Dart", "Riverpod", "Drift", "SQLite", "Windows Desktop"],
+    image: "/projects/nexus-pos/dashboard.png",
+    heroImage: { src: "/projects/nexus-pos/dashboard.png", altKey: "dashboard" },
+    gallery: [
+      { src: "/projects/nexus-pos/pos.png", altKey: "pos" },
+      { src: "/projects/nexus-pos/products.png", altKey: "products" },
+      { src: "/projects/nexus-pos/inventory.png", altKey: "inventory" },
+      { src: "/projects/nexus-pos/reports.png", altKey: "reports" },
+      { src: "/projects/nexus-pos/settings.png", altKey: "settings" }
+    ],
+    links: { store: null, live: null, github: null }
+  },
+  {
     slug: "delni-app",
     technologies: ["Flutter", "Dart", "Firebase", "Riverpod"],
     image: "/projects/delni-app/home-screen.jpg",
